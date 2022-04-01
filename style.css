@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Roboto' Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav img {
+  margin-right: .5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.fa-user {
+  margin-right: .5rem;
+}
+
+.sign__in {
+  margin-right: 3rem;
+}
+
+form {
+  margin-left: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  /* margin: 1rem; */
+  border-left: solid 1px #fff;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.container {
+  padding: .5rem;
+}
+
+.welcome {
+  font-size: 1.7rem;
+  display: inline;
+  float: left;
+
+}
+
+.date {
+  float: right;
+  clear: right;
+  font-size: 1.7rem;
+  color: #999;
+}
+
+.hero {
+  display: inline;
+  width: 40rem;
+  height: 40vh;
+  float: left;
+  clear: left;
+  margin-right: .5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 1rem;
+}
+
+
+.pics {
+  float: left;
+  margin-left: 1rem;
+}
+
+.img1, .img3 {
+  float: left;
+  clear: left;
+  margin: .3rem;
+}
+.img2, .img4 {
+  float: right;
+  clear: right;
+  margin: .4rem;
+}
+
+.news {
+  border-left: solid thick #b10000;
+  clear: both;
+  margin-left: .5rem;
+  padding-left: .3rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+.bottom__sets {
+  margin-left: 2rem;
+}
+
+.bottom__sets section {
+  float: left;
+  clear: right;
+  width: 31%;
+  padding: 0 1rem;
+}
+
+.bottom__sets section img {
+  width: 25rem;
+}
+
+.bottom__sets section .heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.bottom__sets section .parah {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: .5rem;
+}
+
+.bottom__sets section span {
+  border-left: solid thin #b10000;
+  padding-left: .3rem;
+  font-weight: 600;
+}
