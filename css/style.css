@@ -42,7 +42,6 @@ ul {
 
 li {
   display: inline;
-  /* margin: 1rem; */
   border-left: solid 1px #fff;
   padding: 1rem;
 }
@@ -75,8 +74,8 @@ nav {
 
 .hero {
   display: inline;
-  width: 40rem;
-  height: 40vh;
+  width: 50rem;
+  height: 41vh;
   float: left;
   clear: left;
   margin-right: .5rem;
@@ -88,6 +87,10 @@ nav {
 .pics {
   float: left;
   margin-left: 1rem;
+}
+
+.pics img {
+  width: 30rem;
 }
 
 .img1, .img3 {
@@ -118,11 +121,11 @@ nav {
   float: left;
   clear: right;
   width: 31%;
-  padding: 0 1rem;
+  margin: 0 1rem;
 }
 
-.bottom__sets section img {
-  width: 25rem;
+.bottom__sets > section > img {
+  width: 40rem;
 }
 
 .bottom__sets section .heading {
